@@ -72,11 +72,11 @@ function handleClickLixi() {
 
   // Mảng chứa message cho bao lì xì
   const lixiMessages = [
-    'Mình xin lì xì 💲',
-    'Xin 10k nhé 💵',
+    'Mình xin lì xì nhé 💲',
+    'Xin 100k nhé 💵',
     'Xin 20k nhé 💶',
-    'Xin 30k nhé 💷',
-    'Xin 50k nhé 💸',
+    'Xin 50k nhé 💷',
+    'Xin 200k nhé 💸',
   ];
 
   // file qr
@@ -141,9 +141,12 @@ function handleClickLixi() {
 }
 
 function handleMusic() {
-  // Thêm vào cuối file
   const musicBtn = document.querySelector('.music-toggle');
   const audio = document.getElementById('bgMusic');
+
+  // Tự động phát nhạc khi vào trang
+  audio.play();
+  musicBtn.textContent = '🔊';
 
   musicBtn.addEventListener('click', () => {
     if (audio.paused) {
