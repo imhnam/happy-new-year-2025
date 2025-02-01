@@ -72,10 +72,10 @@ function handleClickLixi() {
 
   // Mảng chứa message cho bao lì xì
   const lixiMessages = [
-    'Mình xin lì xì nhé 500k💲',
+    'Xin 20k nhé💲',
     'Xin 100k nhé 💵',
-    'Xin 300k nhé 💶',
-    'Xin 400k nhé 💷',
+    'Xin 50k nhé 💶',
+    'Xin 10k nhé 💷',
     'Xin 200k nhé 💸',
   ];
 
